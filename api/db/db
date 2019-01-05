@@ -1,0 +1,14 @@
+
+CREATE DATABASE IF EXISTS sportClub;
+
+CREATE TABLE member(
+  memberID VARCHAR(20),
+  memberName VARCHAR(100),
+  memberAddress VARCHAR(100),
+  memberNIC VARCHAR(100)
+);
+
+CREATE TABLE sport(
+  sportID VARCHAR(20),
+  sportName VARCHAR(100)
+);
